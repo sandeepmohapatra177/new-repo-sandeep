@@ -1,0 +1,16 @@
+git --version
+git init
+git status
+git add .\test.py
+git status
+git commit -m "test file"
+git status
+git rm .\test.py
+git status
+git restore test.py
+git restore
+git restore --staged test.py
+ls
+git status
+git restore test.py
+git status
